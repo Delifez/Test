@@ -17,6 +17,10 @@ namespace Test
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+	    Console.WriteLine("Введите свое имя, а после фамилию")
+	    string a = Console.ReadLine();
+	    string b = Console.ReadLine();
+	    Console.WriteLine("Вас зовут: " + a + b)
         }
     }
 }
